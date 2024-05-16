@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
   app.get("/contact_us", (req, res) => {
     res.render("contact_us.ejs");
   });
-  app.get("/registre", (req, res) => {
+  app.get("/registration", (req, res) => {
     res.render("registration.ejs");
   });
   

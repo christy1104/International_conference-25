@@ -13,44 +13,92 @@
   <link rel="stylesheet" href="css/responsiveness.css">
 
 </head>
-<body>
-  <main>
-    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-        <div class="container-fluid px-5">
-          <a class="navbar-brand" href="#">
-            <img src="images/kjc-flag-latest.png" alt="Kristu jayanti college" class="logo navbar-brand">
-          </a>
-          <button class="navbar-toggler" type="button" id="navbar-toggler">
 
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNavbar">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/">Home</a>
-              </li>
-              <li class="nav-item mx-2">  
-                <a class="nav-link text-white" href="/about_us">About Us</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/cpf">CPF</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/committees">Committees</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/keynotes">Keynote Speakers</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/submission">Submission</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/contact_us">Contact Us</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-white" href="/registre">Registration</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<body>
+
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light navback">
+  <div class="container-fluid justify-content-between">
+    <!-- Left elements -->
+    <div class="d-flex">
+      <!-- Brand -->
+      <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+        <img
+          src="./images/kjc-flag-latest.png"
+          height="60"
+          alt="MDB Logo"
+          loading="lazy"
+          style="margin-top: 2px;"
+        />
+      </a>
+    </div>
+    <!-- Left elements -->
+
+    <!-- Center elements -->
+    <ul class="navbar-nav flex-row d-none d-md-flex text-light">
+      <li class="nav-item me-3 me-lg-1 text-bold">
+        <a class="nav-link text-light" href="/">
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1 active text-bold">
+        <a class="nav-link text-light" href="/about_us">
+          About us
+        </a>
+      </li>
+      
+      <li class="nav-item me-3 me-lg-1 active text-bold">
+        <a class="nav-link text-light" href="/cpf">
+          CPF
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1 active text-bold dropdown">
+        <a class="nav-link text-light" href="/committees">
+          Committees
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1 active text-bold nav-animation">
+        <a class="nav-link text-light " href="/committees">
+          Technical Sessions
+        </a>
+      </li>
+      
+      <li class="nav-item me-3 me-lg-1 active text-bold">
+        <a class="nav-link text-light" href="/keynotes">
+          Keynote Speakers
+        </a>
+      </li>
+
+      
+      <li class="nav-item me-3 me-lg-1 active text-bold">
+        <a class="nav-link text-light" href="/submission">
+          Submission
+        </a>
+      </li>
+      
+      <li class="nav-item me-3 me-lg-1 active text-bold">
+        <a class="nav-link text-light" href="/contact_us">
+          Contact us
+        </a>
+      </li>
+      
+      <li class="nav-item me-3 me-lg-1 active text-bold">
+        <a class="nav-link text-light" href="/registration">
+          Registration
+        </a>
+      </li>
+    </ul>
+    <!-- Center elements -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <button data-mdb-ripple-init type="button" class="btn btn-link px-3 me-2 brochurebtn">
+        Brochure
+      </button>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->

@@ -11,5 +11,5 @@ function gotoContact() {
 
 function gotoRegistration(){
         // Navigate to registration.ejs page
-        window.location.href = "/registre"; // Replace "/registration" with the actual URL of your registration.ejs page
+        window.location.href = "/registration"; // Replace "/registration" with the actual URL of your registration.ejs page
 }
