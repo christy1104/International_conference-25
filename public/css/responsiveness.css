@@ -1,0 +1,37 @@
+/* Media Query for responsiveness */
+
+/* For phones and devices with a minimum width of 600px */
+@media only screen and (min-width: 600px) {
+    /* Increase font size for .text-welcome and .text-kjc */
+    .text-welcome, .text-kjc {
+      font-size: 1.8em;
+    }
+    .logo {
+      height: 2.4em;
+    }
+  }
+  
+  /* For tablets and devices with a minimum width of 768px */
+  @media only screen and (min-width: 768px) {
+    /* Further increase font size for .text-welcome and .text-kjc */
+    .text-welcome, .text-kjc {
+      font-size: 2.5em;
+    }
+  }
+  
+  /* For small laptops and devices with a maximum width of 800px */
+  @media (max-width: 800px) {
+    /* Decrease font size for .text-welcome and .text-kjc */
+    .text-welcome, .text-kjc {
+      font-size: 1.1em; 
+    }
+  }
+  
+  /* For desktops and devices with a minimum width of 1084px */
+  @media only screen and (min-width: 1084px) {
+    /* Further increase font size for .text-welcome and .text-kjc */
+    .text-welcome, .text-kjc {
+      font-size: 4em;
+    }
+  }
+  
