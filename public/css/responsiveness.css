@@ -4,7 +4,7 @@
 @media only screen and (min-width: 600px) {
     /* Increase font size for .text-welcome and .text-kjc */
     .text-welcome, .text-kjc {
-      font-size: 1.8em;
+      font-size: 3em;
     }
     .logo {
       height: 3em;
@@ -15,7 +15,7 @@
   @media only screen and (min-width: 768px) {
     /* Further increase font size for .text-welcome and .text-kjc */
     .text-welcome, .text-kjc {
-      font-size: 2.5em;
+      font-size: 5em;
     }
   }
   
@@ -23,7 +23,7 @@
   @media (max-width: 800px) {
     /* Decrease font size for .text-welcome and .text-kjc */
     .text-welcome, .text-kjc {
-      font-size: 1.1em; 
+      font-size: 4em; 
     }
   }
   
@@ -31,6 +31,6 @@
   @media only screen and (min-width: 1084px) {
     /* Further increase font size for .text-welcome and .text-kjc */
     .text-welcome, .text-kjc {
-      font-size: 4em;
+      font-size: 5em;
     }
   }

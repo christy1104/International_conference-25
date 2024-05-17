@@ -23,6 +23,7 @@ p{
 /* header  */
 .navback{
   background-color: #34495E;
+  box-shadow: 2px 10px 15px black;
 }
 
 .img-brand{
@@ -116,9 +117,6 @@ footer .fa-instagram:hover{
 /* CPF */
 .top-margin1 {
   margin-top: 150px;
-}
-.top-margin {
-  margin-top: 80px;
 }
 
 .card {
@@ -300,11 +298,17 @@ li {
 
 
 /* about page */
-.text-over-img {
+
+.img-relative{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+/* .text-over-img {
   position: absolute;
   top: 15%;
   left: 10%;
-}
+} */
 
 .about_kjc, .about_cs, .about_lin{
   margin-top: 1em;
@@ -319,23 +323,20 @@ li {
   border-radius: 100%;
 }
 
-.text-welcome, .text-kjc {
+/* .text-welcome, .text-kjc {
   font-weight: bold;
-  font-size: 4em;
-}
+  font-size: 10em;
+  text-align: center;
+} */
 
-.text-kjc {
+/* .text-kjc {
   color: #0B5FA3;
 }
 
 .text-to {
   color: black;
   font-size: 0.5em;
-}
-
-.position-relative{
-  position: relative;
-}
+} */
 
 
 
@@ -357,19 +358,22 @@ li {
 .text-icci {
   color: #0B5FA3;
   font-weight: bold;
-  font-size: 2.2rem;
-  width: 40%;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
   /* text-shadow: 3px 2px 2px #000f; */
 }
 
 .text-zindex1 {
   position: relative; /* Ensure text container is positioned relative */
   z-index: 2; /* Set z-index higher than background gradient */
+  margin: auto;
 }
 
 .text-slng{
-  width: 40%;
+  width: 100%;
   font-weight: bold;
+  font-style: italic;
 }
 
 .home-btn {
